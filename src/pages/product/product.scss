@@ -1,0 +1,95 @@
+.element.style {
+    float: left;
+}
+
+.card-ios{
+    border: solid 4px #999999;
+    border-radius: 15px;
+    font-size: 25px;
+
+}
+.card-header-ios{
+    color: #FE5A59;
+    font-family: Fira Sans;
+    font-weight: bold;
+}
+
+
+.card-ios{
+    height: 65%;
+}
+
+.card-header-ios + .card-content-ios, .card-ios .item + .card-content-ios{
+    font-size: 18px;
+    text-align: center;
+        color: #FE5A59;
+
+font-weight: bold;
+}
+
+#sales-id{
+    margin-top: 8px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FE5A59;
+    text-align: center;
+
+}
+
+.card-content-ios{
+font-size: 18px;    
+font-weight: bold;
+color: #FE5A59;
+text-align: center;
+}
+
+.button-block-ios{
+        background-color: #FE5A59;
+        height: 80px;
+
+}
+
+.bar-button::after{
+            background-color:transparent;
+           
+}
+.toolbar-title-ios{
+    font-size: 13pt; 
+    color: #FE5A59;
+}
+.back-button-text-ios{
+    color: transparent;
+}
+.back-button-icon-ios{
+    color: #FE5A59;
+}
+
+
+.card-ios p{
+    font-size: 1.7rem;
+    color: #FE5A59;
+    margin: 0px 
+   
+}
+
+
+
+element.style {
+    margin-top: 11%;
+}
+.found{
+    color: white
+}
+
+.button-block-ios{
+   background-color: #FE5A59; 
+   width: 80%;
+   margin: auto;
+}
+.stands{
+    text-align: center;
+}
+.button-ios{
+        font-size: 2.6rem;
+        font-weight: bold;
+}
