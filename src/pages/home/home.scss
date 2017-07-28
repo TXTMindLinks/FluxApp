@@ -3,7 +3,8 @@
     font: Fira Sans;
     color: #FE5A59;
     font-size: 52pt;
-    font-weight: 500;
+    font-weight: 800;
+    position: fixed;
     
         
 }
@@ -16,7 +17,9 @@
 }
 .searchbar-ios .searchbar-input {
     background-color: white;
-    border: solid 3px #FE5A59;
+    border: solid 2px #FE5A59;
+    margin-bottom: 3px;
+    border-radius: 10px;
     
 }
 
@@ -37,7 +40,7 @@
 //     list-style-type: none;
 // }
 .list-ios > .item-block:first-child {
-    border-top: 1.55px solid #FE5A59;
+    border-top: 1px solid #FE5A59;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -51,10 +54,12 @@
     background-color: #fff;
     -webkit-transition: background-color 200ms linear;
     transition: background-color 200ms linear;
-    border: solid 1.5px #FE5A59;
+    border-bottom: solid 1px #FE5A59;
+    border-right: solid 1px #FE5A59;
+    border-left: solid 1px #FE5A59;
 }
 .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
-    border-bottom: 2.55px solid #FE5A59;
+    border-bottom: 1px solid #FE5A59;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }

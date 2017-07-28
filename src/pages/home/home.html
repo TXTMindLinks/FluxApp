@@ -1,16 +1,17 @@
+<link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
 <ion-content style = "background-color: white;" >
-  <div class = "flux">Flux</div>
+  
   <div class=  "bar" >
   <ion-searchbar placeholder = "Search For Swap Meets" (ionInput)="getItems($event)" class="search"></ion-searchbar>
   <ion-list>
 
   <ion-item id = "swapmeets" *ngFor="let item of items"(click)="goToOptions()">
-    {{ item }} <img class = "back" src= "../../assets/icon/Back.jpg">
+    {{ item }} 
   </ion-item>
  
 </ion-list>
 </div>
-
+<div class = "flux">Flux</div>
 
 
 </ion-content>

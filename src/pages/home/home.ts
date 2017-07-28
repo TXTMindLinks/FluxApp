@@ -39,8 +39,11 @@ export class HomePage {
         return (item.toLowerCase().indexOf(val.toLowerCase()) > -1);
       })
     }
+    if (val == ""){
+      this.items= [];
+    }
   }
-
+  
   goToOptions() {
     this.navCtrl.push(OptionsPage);
   }
