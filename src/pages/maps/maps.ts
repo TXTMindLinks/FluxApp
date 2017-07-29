@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home'
+import { OptionsPage } from '../options/options'
 /**
  * Generated class for the MapsPage page.
  *
@@ -21,6 +21,6 @@ export class MapsPage {
     console.log('ionViewDidLoad MapsPage');
   }
   goBackHome(){
-    this.navCtrl.push(HomePage)
+    this.navCtrl.push(OptionsPage)
   }
 }

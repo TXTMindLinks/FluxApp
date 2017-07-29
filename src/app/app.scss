@@ -5,22 +5,22 @@
     font-weight: 800;
     color:white;
     font-size: 52pt;
-    margin-top: 130px;
-    margin-left: 30%;
+    // margin-top: 130px;
+    // margin-left: 30%;
     z-index: -10;
 
 
     
 }
-.product{
-    font: Fira Sans;
-    position: absolute;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 17pt;
-    text-align: center;
-    right: 70px;
-}
+// .product{
+//     font: Fira Sans;
+//     position: absolute;
+//     font-weight: bold;
+//     color: #ffffff;
+//     font-size: 17pt;
+//     text-align: center;
+//     right: 70px;
+// }
 .goToStands{
     font: Fira Sans;
     font-size: 28px;
@@ -56,6 +56,13 @@
     height: 80px;
     background-color: white;
 }
+.featuresicon{
+    font: Fira Sans;
+    font-size: 28px;
+    font-weight: bold;
+    height: 80px;
+    background-color: white;
+}
 .fork{
     position: absolute;
     left: 34px;
@@ -79,6 +86,10 @@
     left: 28px;
 
 }
+.features{
+    position: absolute;
+    left: 28px;
+}
 .polygon{
     position: absolute;
     right: 8px;
@@ -90,11 +101,15 @@
 }
 .clock{
     position: absolute;
-    right: 8px;
+    left: 20px;
 }
 .button-block-ios{
    background-color: #FE5A59; 
-   width: 90%;
+
 
 }
-
+.drop{
+     position: absolute;
+     margin-top: 2px; 
+    right: 40px;
+}

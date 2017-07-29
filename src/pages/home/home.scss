@@ -4,8 +4,8 @@
     color: #FE5A59;
     font-size: 52pt;
     font-weight: 800;
-    position: fixed;
-    
+    text-align: center;
+    margin-top: 70%;
         
 }
 
@@ -22,13 +22,16 @@
     border-radius: 10px;
     
 }
-
+.ion-list{
+        margin-top: -62%;
+}
 .item-block{
     width : 94.5%;
 }
 .label-ios{
+    font-family: "Fira Sans";
     color: #999999;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 
 
@@ -44,7 +47,10 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
+.searchbar-ios{
+    padding-top: 0px;
+    margin-top: -95%;
+}
 .item-ios {
     margin: 0px 9px;
     border-radius: 0;

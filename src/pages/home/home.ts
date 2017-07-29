@@ -14,11 +14,12 @@ export class HomePage {
 
   initializeItems() {
     this.items = [
-      'Los Amigos Swap Meet',
       'Alameda Swap Meet',
-      'Westlake Swap Meet',
       'Bonitos Swap Meet',
       'Mini Swap Meet',
+      'Paramount Swap Meet',
+      'Westlake Swap Meet',
+
     
     ];
 
