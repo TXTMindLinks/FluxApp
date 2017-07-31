@@ -101,7 +101,19 @@
 }
 .clock{
     position: absolute;
-    left: 20px;
+    left: 30px;
+    margin-top: 4px;
+}
+.marker{
+      position: absolute;
+    left: 30px;
+    margin-top: 4px;
+}
+.phone{
+       position: absolute;
+    left: 30px;
+    margin-top: -11px;
+
 }
 .button-block-ios{
    background-color: #FE5A59; 
@@ -110,6 +122,11 @@
 }
 .drop{
      position: absolute;
-     margin-top: 2px; 
-    right: 40px;
+     margin-top: 7px; 
+    right: 30px;
+}
+.home{
+    position: absolute;
+    margin-top: -3px;
+    right: 14px;
 }

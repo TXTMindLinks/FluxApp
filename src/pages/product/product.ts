@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { MapsPage } from '../maps/maps'
-
+import { OptionsPage } from '../options/options'
 /**
  * Generated class for the ProductPage page.
  *
@@ -14,8 +14,10 @@ import { MapsPage } from '../maps/maps'
   templateUrl: 'product.html',
 })
 export class ProductPage {
-
+   
+  display; 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.display = false;
   }
 
   ionViewDidLoad() {
@@ -24,5 +26,11 @@ export class ProductPage {
   goToMaps(){
      this.navCtrl.push(MapsPage);
 
+  }
+  showTimes(){
+      this.display = true;
+  }
+  goHome(){
+     this.navCtrl.push(OptionsPage);
   }
 }

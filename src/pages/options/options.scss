@@ -109,9 +109,30 @@
      border-bottom: solid 2px #999999;
      font-family: "Fira Sans";
 }
- .toolbar-title-ios{
-        font-family: "Fira Sans";
-    }
+//  .toolbar-title-ios{
+//         // font-size: 16pt;
+//         font-family: "Fira Sans";
+//         // margin-left: -45px;
+//         // overflow: initial;
+//     }
+.toolbar-ios ion-title{
+    padding: 0px;
+    // position:absolute;
+
+}
+// .toolbar-title{
+//     padding-top: 7px;
+// }
+.paramountitle{
+    font-weight: 600;
+    color:white;
+    font-size: 18pt;
+    font-family: "Fira Sans";
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+
+}
 .paramount{
         margin-top: -35px;
     }
